@@ -1,0 +1,87 @@
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    text-align: left;
+    font-size: 14px;
+
+    .single-blog{
+        border:1px solid grey;
+        border-radius: 3px;
+        padding: 10x;
+        margin: 0 10px;
+        min-width: 450px;
+        max-width: 475px;
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .content{
+            padding: 10px 0px;
+        }
+    }
+}
+
+.add-new-blog{
+    margin:10px 0px;
+}
+
+.form {
+    width: 400px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: left;
+    .add-new-title{
+        margin:10px 0;
+    }
+    .input{
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin: 10px;
+    }
+}
+
+.youtube-seacrh-container {
+    .yt-search {
+        input{
+            min-width: 400px;
+        }
+       
+    }
+
+    .yt-result {
+        margin-top: 20px;
+        display: flex;
+        width: 100% ;
+        height: 250px;
+        padding: 0 100px;
+        .left{
+            width: 40%;
+            padding: 0 10px;
+            .iframe-yt{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .right{
+            width: 60%;
+            text-align: left;
+            padding:5px;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .title{
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+}
